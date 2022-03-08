@@ -6,21 +6,26 @@ import { Badge } from '@mui/material';
 
  const Header = () => {
   return (
-    <div className='flex   flex-col md:flex-row justify-between'>
-        <div className=' font-logo  text-3xl  text-cyan-400 font-bold cursor-pointer'>
+    <div className='flex   flex-col md:flex-row justify-between h-[60px] sm:h-[50px]'>
+        <div className=' font-logo sm:font-medium text-3xl  text-primaire  font-bold cursor-pointer'>
             MKshop
         </div>
-        <div className=" flex flex-row  transition-all duration-200 ease-in-out border-solid border-2 border-zinc-800 w-46 cursor-text">
-        <input
+        <div className="  flex items-center ml-6 p-1 w-[200px] border-[0.5px] border-solid ">
+    <div 	className='border-none  sm:w-[50px] '>
+      <input
 						
 							
-							type="text"
-							placeholder="search for something"
-						/>
-          <div className="pl-0 cursor-pointer bg-cyan-400">
+            type="text"
+            placeholder="search for something"
+          />
+     </div>
+     
+       
+          <div className="  ml-[108px]   text-base cursor-pointer bg-primaire ">
            <Search/>
            </div>
-        </div>
+         </div>
+        
         <div  className='flex flex-row  space-x-6 justify-items-center cursor-pointer'>
           <div>
          REGISTER

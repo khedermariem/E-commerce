@@ -1,4 +1,4 @@
-import Home from "../src/app/pages/Home/index"
+import Login from './app/pages/auth/login/index';
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
  
 
     
-   <Home/>
+   <Login/>
    
 
   );
